@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.divh1 {
+    background-color: blue;
+}
+
+.forecasts {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* .buttonspace {
+    margin-top: 5px
+} */
+
+#search_button,
+.buttonspace,
+.inputValue {
+    margin-top: 5px
+}
+
+.inputValue {
+    border: 20px;
+}
+
+.ever {
+    border: 20px;
+}

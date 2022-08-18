@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+
+</head>
+
+<body>
+    <div class="col-sm-12 ever" id="container">
+        <div class="row ever">
+            <div class="col-sm-12 divh1">
+                <h1 class="h1">Weather Dashboard</h1>
+            </div>
+            <div class="col-sm-4 ">
+                <input type="text" id="inputValue" class="form-control bg-light" placeholder="Please insert name of City" aria-label="Recipient's username" aria-describedby="button-addon2">
+
+                <button type="button" class="btn col-sm-12 bg-success" id="search_button">Search</button>
+                </button>
+
+                <ul class="list-group" id="listCity">
+                </ul>
+
+            </div>
+            <div class="col-sm-8 ">
+                <h3 id="cityName"></h3>
+                <p id="tempCity"></p>
+                <p id="windCity"></p>
+                <p id="humCity"></p>
+                <p id="uvCity"></p>
+                <h4>5-Day Forecast:</h4>
+                <div class="row" id="forecasts">
+                    <div class="col-md-2 ">
+                        <h5 id="forecastsdate0"></h5>
+                        <p id="forecasttemp0"></p>
+                        <p id="forecastwind0"></p>
+                        <p id="forecasthum0"></p>
+                        <p id="forecastuv0"></p>
+                    </div>
+                    <div class="col-md-2 ">
+                        <h5 id="forecastsdate1"></h5>
+                        <p id="forecasttemp1"></p>
+                        <p id="forecastwind1"></p>
+                        <p id="forecasthum1"></p>
+                        <p id="forecasthum1"></p>
+                    </div>
+                    <div class="col-md-2">
+                        <h5 id="forecastsdate2"></h5>
+                        <p id="forecasttemp2"></p>
+                        <p id="forecastwind2"></p>
+                        <p id="forecasthum2"></p>
+                        <p id="forecasthum2"></p>
+                    </div>
+                    <div class="col-md-2 ">
+                        <h5 id="forecastsdate3"></h5>
+                        <p id="forecasttemp3"></p>
+                        <p id="forecastwind3"></p>
+                        <p id="forecasthum3"></p>
+                        <p id="forecasthum3"></p>
+                    </div>
+                    <div class="col-md-2 ">
+                        <h5 id="forecastsdate4"></h5>
+                        <p id="forecasttemp4"></p>
+                        <p id="forecastwind4"></p>
+                        <p id="forecasthum4"></p>
+                        <p id="forecasthum4"></p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js "></script>
+    <script src="assets/js/script.js">
+    </script>
+</body>
+
+</html
